@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Intervention" />
+        <item
+            android:id="@+id/nav_inter"
+            android:icon="@drawable/ic_baseline_insert_drive_file_24"
+            android:title="Intervention à assigner" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="Client" />
+        <item
+            android:id="@+id/nav_mesg"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_adresse"
+            android:icon="@drawable/ic_baseline_add_location_24"
+            android:title="Adresses" />
+
+    </group>
+
+<item android:title="Communicate">
+<menu>
+    <item
+        android:id="@+id/nav_parametre"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Paramètre" />
+    <item
+        android:id="@+id/nav_apropo"
+        android:icon="@drawable/ic_baseline_perm_identity_24"
+        android:title="à propos" />
+    <item
+        android:id="@+id/nav_dec"
+        android:icon="@drawable/ic_baseline_brightness_high_24"
+        android:title="Déconnexion" />
+</menu>
+</item>
+</menu>
